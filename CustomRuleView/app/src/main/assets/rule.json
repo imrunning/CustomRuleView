@@ -1,0 +1,279 @@
+{
+  "SchemeVersion":"1.0.0",
+  "Id": "1001",
+  "Name":"六安麻将",
+  "GameId":"392",
+  "AppCode":"limj",
+  "CostRatio":"10",
+  "AppPackageName":"com.uc108.mobile.limj.tcy",
+
+  "PlayerNumberMin":"4",
+  "PlayerNumberMax":"4",
+  "UiRenderMode":"Native",
+
+  "UiData":
+  {
+    "ControlId": "1",
+    "ControlKey": "GameMode",
+    "ControlType": "TabContainer",
+    "ControlText": "六安麻将",
+    "DefaultKey":"limj_area",
+    "Children":
+    [
+      {
+        "ControlId": "11",
+        "ControlKey": "limj_area",
+        "ControlType":"TabPage",
+        "ControlText": "六安地区",
+        "DefaultKey": "basescroe2",
+        "Category": "sa",
+        "Children":
+        [
+          {
+            "ControlId": "111",
+            "ControlKey": "limj_basescroe",
+            "ControlType":"RadioButtonGroup",
+            "ControlText": "庄底分",
+            "DefaultKey": "basescroe11",
+            "Children":
+            [
+              {
+                "ControlKey":"basescroe11",
+                "ControlId": "1111",
+                "ControlText": "5分",
+                "Children" : [
+                  {
+                    "ControlId": "112",
+                    "ControlKey": "limj_addscroe",
+                    "ControlType":"RadioButtonGroup",
+                    "ControlText": "基础分",
+                    "DefaultKey": "addscroe12",
+                    "Children":
+                    [
+                      {
+                        "ControlKey":"addscroe11",
+                        "ControlId": "1121",
+                        "ControlText": "++1分"
+                      },
+                      {
+                        "ControlKey": "addscroe12",
+                        "ControlId": "1122",
+                        "ControlText": "++2分"
+                      },
+                      {
+                        "ControlKey": "addscroe13",
+                        "ControlId": "1123",
+                        "ControlText": "++5分"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ControlKey": "basescroe12",
+                "ControlId": "1112",
+                "ControlText": "10分",
+                "Children" : [
+                  {
+                    "ControlId": "112",
+                    "ControlKey": "limj_addscroe",
+                    "ControlType":"RadioButtonGroup",
+                    "ControlText": "基础分",
+                    "DefaultKey": "addscroe22",
+                    "Children":
+                    [
+                      {
+                        "ControlKey":"addscroe21",
+                        "ControlId": "1121",
+                        "ControlText": "+1分"
+                      },
+                      {
+                        "ControlKey": "addscroe22",
+                        "ControlId": "1122",
+                        "ControlText": "+2分"
+                      },
+                      {
+                        "ControlKey": "addscroe23",
+                        "ControlId": "1123",
+                        "ControlText": "+5分"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ControlKey": "basescroe3",
+                "ControlId": "1113",
+                "ControlText": "20分",
+                "Children" : [
+                  {
+                    "ControlId": "112",
+                    "ControlKey": "limj_addscroe",
+                    "ControlType":"RadioButtonGroup",
+                    "ControlText": "基础分",
+                    "DefaultKey": "addscroe2",
+                    "Children":
+                    [
+                      {
+                        "ControlKey":"addscroe1",
+                        "ControlId": "1121",
+                        "ControlText": "++7分"
+                      },
+                      {
+                        "ControlKey": "addscroe2",
+                        "ControlId": "1122",
+                        "ControlText": "++8分"
+                      },
+                      {
+                        "ControlKey": "addscroe3",
+                        "ControlId": "1123",
+                        "ControlText": "++59分"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+
+          {
+            "ControlId": "112",
+            "ControlKey": "limj_addscroe",
+            "ControlType":"RadioButtonGroup",
+            "ControlText": "基础分",
+            "DefaultKey": "addscroe2",
+            "Children":
+            [
+              {
+                "ControlKey":"addscroe1",
+                "ControlId": "1121",
+                "ControlText": "1分"
+              },
+              {
+                "ControlKey": "addscroe2",
+                "ControlId": "1122",
+                "ControlText": "2分"
+              },
+              {
+                "ControlKey": "addscroe3",
+                "ControlId": "1123",
+                "ControlText": "5分"
+              }
+            ]
+          },
+          {
+            "ControlId": "115",
+            "ControlKey": "limj_baopai",
+            "ControlType":"ControlContainer",
+            "ControlText": "大包牌选择",
+            "DefaultKey": "baopai1_2",
+            "Children":[
+              {
+                "ControlId": "115",
+                "ControlKey": "limj_baopai_3",
+                "ControlType":"DropDownList",
+                "ControlText": "包牌选择",
+                "DefaultKey": "baopai2_3",
+                "Children":
+                [
+                  {
+                    "ControlKey":"baopai2_2",
+                    "ControlId": "1141",
+                    "ControlText": "包牌平摊"
+                  },
+                  {
+                    "ControlKey": "baopai2_3",
+                    "ControlId": "1142",
+                    "ControlText": "后碰者承担"
+                  }
+                ]
+              },
+              {
+                "ControlId": "114",
+                "ControlKey": "limj_baopai_3",
+                "ControlType":"DropDownList",
+                "ControlText": "大牌选择",
+                "DefaultKey": "baopai1_3",
+                "Children":
+                [
+                  {
+                    "ControlKey":"baopai1_3",
+                    "ControlId": "1141",
+                    "ControlText": "包牌平摊222"
+                  },
+                  {
+                    "ControlKey": "baopai2_4",
+                    "ControlId": "1142",
+                    "ControlText": "后碰者承担222"
+                  }
+                ]
+              }
+            ]
+          },
+
+          {
+            "ControlId": "113",
+            "ControlKey": "limj_boutnum",
+            "ControlType":"CheckBoxGroup",
+            "ControlText": "局数选择",
+            "DefaultKey": "boutnum2",
+            "SelectionMin": "1",
+            "SelectionMax": "3",
+            "Children":
+            [
+              {
+                "ControlKey":"boutnum1",
+                "ControlId": "1131",
+                "ControlText": "8局(80欢乐币)",
+                "Cost": "800"
+              },
+              {
+                "ControlKey": "boutnum2",
+                "ControlId": "1132",
+                "ControlText": "16局(150欢乐币)",
+                "Cost": "1500"
+              },
+              {
+                "ControlKey": "boutnum3",
+                "ControlId": "1166",
+                "ControlText": "32局(250欢乐币)",
+                "Cost": "1500"
+              },
+              {
+                "ControlKey": "boutnum4",
+                "ControlId": "1155",
+                "ControlText": "64局(350欢乐币)",
+                "Cost": "1500"
+              }
+            ]
+          },
+
+          {
+            "ControlId": "114",
+            "ControlKey": "limj_baopai",
+            "ControlType":"RadioButtonGroup",
+            "ControlText": "包牌选择",
+            "DefaultKey": "baopai1",
+            "Children":
+            [
+              {
+                "ControlKey":"baopai1",
+                "ControlId": "1141",
+                "ControlText": "包牌平摊"
+              },
+              {
+                "ControlKey": "baopai2",
+                "ControlId": "1142",
+                "ControlText": "后碰者承担"
+              }
+            ]
+          }
+
+
+        ]
+      }
+
+    ]
+  }
+}
+

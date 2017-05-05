@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radio_button_rule"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="点炮翻倍"
+    android:button="@null"
+    android:textColor="#868686"
+    android:textSize="13dp"
+    android:drawableLeft="@drawable/select_radio_button_rule"
+    android:gravity="top"
+    android:drawablePadding="4dp"
+    android:padding="5dp"
+    >
+</RadioButton>

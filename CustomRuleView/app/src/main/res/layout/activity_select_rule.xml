@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/ic_rule_bg"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ll_parent">
+        <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/ic_select_rule_title_bg"
+            android:layout_width="match_parent"
+            android:layout_height="47dp">
+            <TextView
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="40dp"
+                android:layout_centerVertical="true"
+                android:text="游戏规则"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/iv_close"
+                android:padding="12dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_rule_close"/>
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@mipmap/ic_rule_select_bar_bg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <!--<com.uc108.mobile.gamecenter.widget.CustomPageIndicator-->
+            <!--android:id="@+id/indicator"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp">-->
+        <!--</com.uc108.mobile.gamecenter.widget.CustomPageIndicator>-->
+    </RelativeLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

@@ -1,0 +1,12 @@
+/CustomRuleView/.gradle
+/CustomRuleView/.idea
+/CustomRuleView/build
+build
+/CustomRuleView/CustomRuleView/*.iml
+/CustomRuleView/volley/*.iml
+/CustomRuleView/*.properties
+/CustomRuleView/*.iml
+/CustomRuleView/CustomRuleView/build
+
+R.java
+
